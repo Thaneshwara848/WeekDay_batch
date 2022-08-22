@@ -1,0 +1,53 @@
+Phase 1 : core java , data type , operatopns , OOps , MultiThreading , Excerption handling , Collection , JDBC 
+phase 2  : JDBC , Servelt , JSP , , Hibernate , Spring MVC , Spring AOP 
+Phase 3 : Spring ,  java with Spring Boot , MicroServices 
+Phase 4  : 
+
+
+
+
+Full stack : 													MEAN 					MERN  
+
+
+Front End 
+
+		HTML : What to display  :  
+		Css, :How to display ,  look and Feel 
+		Bootstracp , : how more effite way you can print the Design 
+		java Script , : Logiccal 
+		TypesScript : OOPL 
+		 Angular....: Freamwork 								Angular>JS 				React.JS 
+
+Middel Ware : 
+		java With MicroServices : 
+		jPA :
+		WebS Sevices :										ExpreressJS
+				REST 
+				SOAP 
+
+		Serv eerver : 
+				java : TOmcat 								NOde.js 
+				Python : Http 
+				.net : IIS 
+
+Back End 
+
+		MySQL 
+		oracle 											MongoDB 
+			SQl : 
+
+
+HTML 
+
+
+	basics 
+		hr , br 
+		Form 
+		List 
+		table 
+
+
+		List 
+		table 
+		Form 
+		image , vedio 
