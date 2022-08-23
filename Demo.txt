@@ -52,3 +52,39 @@ HTML
 		Form 
 		image , vedio 
 		
+
+
+Css : 
+	Inline 
+	embanded / interanl 
+	Externa; 
+
+Selectotrs : 
+	ID 
+	Class 
+	Tag 
+	Multiple tag 
+	Unoivercle tag selectors 
+
+Box Model 
+
+	Padding 
+	Maring 
+	width 
+	hight 
+	overflow 
+	text-deff
+	line diff 
+	line diff 
+	word differecn
+	
+
+
+
+
+	
+
+
+
+
+
