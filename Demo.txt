@@ -82,9 +82,23 @@ Box Model
 
 
 
-	
+HTML  : what to display , just only static web page 
+CSS:  : how you wnmat to display ? 
+
+	Style : 
+			we have to use many css propeties ,...........!
 
 
+Bootsracp : 	
+		we will have ready class  , 
+
+Grid : 
+
+xs : xtra small  768px 
+sm  : small  > 768 px 
+md  :medium deviced > 992 px : desktop , laptop , 
+lg  : large dev  : 1200 px  : TV 
 
 
+table : 
 
