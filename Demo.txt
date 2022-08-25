@@ -101,4 +101,40 @@ lg  : large dev  : 1200 px  : TV
 
 
 table : 
+	class 
+			table-bordred ,table-striped ,table-hover ,table-dark
+
+Button 
+	class tbn 
+			primary , success ,danger ,warning, info 
+pagination
+collapse
+glyphicon
+Form: FOmr-inline / form-group
+	form-control
+
+progreessbar : 
+Model
+tooltip
+Nav
+corosel
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
