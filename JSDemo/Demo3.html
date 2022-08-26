@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getFullName()
+        {
+                first=document.f1.fn.value;
+                last = document.f1.ln.value;
+                fullname= first +" "+ last ;
+                document.f1.fullname.value=fullname
+        }
+    </script>
+    <style>
+        .abc{
+            width: 250px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+  <form  name="f1">
+    First Name :<input type="text" name="fn" class="abc"><br>
+    Last name : <input type="text" name="ln" class="abc"><br>
+    Full name :<input type="text" name="fullname" class="abc"><br>
+    <input type="button" value="Click" onclick="getFullName1()">
+  </form>
+</body>
+</html>
+
+
+
+

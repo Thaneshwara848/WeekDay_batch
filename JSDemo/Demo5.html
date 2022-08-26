@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function CAL(value){
+            a=parseInt( document.f1.a.value);
+            b=parseInt( document.f1.b.value) ;
+           
+            if(value=="ADD")
+            {
+                c= a+b ;
+                document.f1.res.value=c;
+            }
+            else if(value=="SUB")
+            {
+                c= a-b ;
+                document.f1.res.value=c;
+            }
+            else if(value=="MUL")
+            {
+                c= a*b ;
+                document.f1.res.value=c;
+            }
+            else if(value=="DIV")
+            {
+                c= a/b ;
+                document.f1.res.value=c;
+            }   
+        }
+       
+    </script>
+</head>
+<body>
+    
+    <form name="f1">
+        Enter A : <input type="text"  name="a"><br> 
+        Enter B  : <input type="text"  name="b"><br>
+        Result  : <input type="text"  name="res"><br>
+    
+             <input type="button"  value="ADD" onclick="CAL(value)">
+             <input type="button"  value="SUB" onclick="CAL(value)">
+             <input type="button"  value="MUL" onclick="CAL(value)" > 
+             <input type="button"  value="DIV" onclick="CAL(value)">
+             
+    </form>
+</body>
+</html>

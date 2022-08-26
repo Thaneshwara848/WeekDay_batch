@@ -122,6 +122,17 @@ corosel
 
 
 
+				UI :
+						Design : Html, css , bootstrp 
+						Development : with logic, ts , 
+
+
+				COmponent : 
+						 
+						
+	HTML  : 
+	CSS
+	Bootsracp
 
 
 
@@ -132,9 +143,71 @@ corosel
 
 
 
+Node.js 
+
+npm --version
+
+npm install -g @angular/cli
+
+ng version
+	14 
+
+create a proj 
+
+	ng new Demo 
+	cd Demo
+	ng serve 
+
+			open in browser 
+			localhost:4200 
 
 
 
 
 
+
+		java 							Java Scrit ? 
+
+		1) programming lang 				Scripting 
+		2) Sc to compile 
+			the run 					Directly run , no need of any compiler 
+
+		3) 							Fast ....!
+		4) Server side coding land			Client side + server side also === Populer 
+										Anaguialr . JS
+										React
+										vew
+										node
+										express
+										vl, bckbon  
+
+
+
+									Angaulr JS 					Angaulr 1 or 2+ 
+
+											javascript 					type scrit 										
+
+											
+
+
+
+
+Full Satck 
+
+
+
+FE
+	HTML 
+	CSS -- BS 
+	JS 
+		Angualr: freamowork / React  lib 
+			comp
+
+MW 
+	java 
+			PYTHON
+					.net
+
+BE 
+	MSQL 
 
