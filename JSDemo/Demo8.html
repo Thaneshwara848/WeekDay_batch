@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+            function vali(){
+               // name =document.f1.username.value;
+              name = document.getElementById('myusername').value;
+                if(name.length==0 || name.length==null)
+                {
+                   document.getElementById('errmsg').innerHTML="<p style='color:red'>name must be requried ..!"
+                }
+                else if (name.length>0 && name.length<3 )
+                {
+                    document.getElementById('errmsg').innerHTML="<p style='color:red'>name must be MIN 3 char  ..!"
+                }
+                else
+                {
+                    document.getElementById('errmsg').innerHTML="<p style='color:green'>name is Fine   ..!"
+                }
+            }
+    </script>
+</head>
+<body>
+    <form action="" name="f1">
+
+        Name : <br>
+        <input type="text" name="username" id="myusername"> <br>
+        <span id="errmsg" ></span>
+        <input type="button" value="CLICK" onclick="vali()">
+
+
+    </form>
+    
+</body>
+</html>
+
+DOM : Documnent obj model 

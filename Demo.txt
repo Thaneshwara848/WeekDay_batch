@@ -183,7 +183,7 @@ create a proj
 
 
 
-									Angaulr JS 					Angaulr 1 or 2+ 
+									Angaulr JS 					Angaulr 1 or 2+   to 14 
 
 											javascript 					type scrit 										
 
@@ -210,4 +210,57 @@ MW
 
 BE 
 	MSQL 
+
+
+
+
+
+
+
+
+web 	
+
+
+
+HTML 						HTML /CSS/JS 								HTML /CSS/JS --- Angaulr 
+CSS
+JS
+
+	Servlet 						SpringMVC 									SpringBoot
+		JDBC 								hibernate 								JPA 
+
+
+Data base 						Mysql 										MYSQL / H2 / 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
