@@ -4,11 +4,11 @@ class Demo
     {
         console.log("Hi Constreuctor....! ")        
     }
-    abc()
+   abc()
     {
         console.log("HI method ....!")
     }
 }
 
-var d = new Demo()
+var  d = new Demo()
 d.abc();

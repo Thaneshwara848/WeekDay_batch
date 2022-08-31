@@ -249,7 +249,30 @@ Data base 						Mysql 										MYSQL / H2 /
 
 
 
+HTML : only statci web page 
+CSS  : look and feel 
+Bootstracp : more ;look and feel 
+JS 		: client validation , with logic 
+TS 		: with logic 
 
+
+		1) OOPS: 
+			class & object 
+			Inheritance 
+			Polymorphism 
+			Abstratcion 
+			Encupulation 
+
+
+		2) Data type 
+		3) Optinal parament 
+		4) Access modifier :
+				private 
+				public 
+				protected 
+
+		
+		7)modul , export , inport 
 
 
 
