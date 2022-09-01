@@ -38,4 +38,16 @@ export class DatabindComponent implements OnInit {
    
   }
 
+  company="SimpleLeanr "
+  
+  user(usernameabcd:any){
+    console.log("My name is : "+usernameabcd)
+  }
+  result=0;
+  intrest(p:any,t:any,roi:any)
+  {
+    console.log(p + " : "+t + " : "+roi);
+   this.result= (p*t*roi)/100
+   
+  } 
 }
