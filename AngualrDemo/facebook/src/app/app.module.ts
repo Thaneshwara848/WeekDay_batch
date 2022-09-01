@@ -10,6 +10,11 @@ import { LoanComponent } from './loan/loan.component';
 import { EduComponent } from './loan/edu/edu.component';
 import { PersonalComponent } from './loan/personal/personal.component';
 import { HomeComponent } from './loan/home/home.component';
+import { DeptComponent } from './dept/dept.component';
+import { TestingComponent } from './dept/testing/testing.component';
+import { DevComponent } from './dept/dev/dev.component';
+import { DeploymentComponent } from './dept/deployment/deployment.component';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { HomeComponent } from './loan/home/home.component';
     LoanComponent,
     EduComponent,
     PersonalComponent,
-    HomeComponent
+    HomeComponent,
+    DeptComponent,
+    TestingComponent,
+    DevComponent,
+    DeploymentComponent,
+    ErrorpageComponent
   ],
   imports: [
     BrowserModule,

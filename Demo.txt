@@ -278,8 +278,24 @@ TS 		: with logic
 
 
 
+ANagulr : 
+		Component : 
+			login 
+			register
+			herader
+			footer
+			demo
+			loan 		
+				edu 
+				car 
+				home 
+				per
 
+		Routing : 
 
+			1) ROuterLink
+			2)<router-outlet>
+			3) Configire in router file 
 
 
 
