@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { first } from 'rxjs';
 
 @Component({
   selector: 'app-directivedemo',
@@ -9,8 +10,16 @@ export class DirectivedemoComponent implements OnInit {
 
   constructor() { }
 
-  mydec:Boolean=true
+ abc=false
   ngOnInit(): void {
+   
+  }
+
+  fruits=["Apple","banana","Chicoo","Graps","Pappy"]
+
+  addFriuit(myfriut:any){
+
+    this.fruits.push(myfriut);
   }
 
 }

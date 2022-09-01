@@ -1,14 +1,18 @@
-<div>
-    <h1>Hiiiiiiiii</h1>
-</div>
 
 
-<div *ngIf="mydec">
+
+<div *ngIf="abc">
     <h1>Heloo</h1>
 </div>
 
 
-
 <div>
-    <h1>Bye </h1>
+    <input type="text" name="fruit" #fruit>
+    <input type="submit" (click)="addFriuit(fruit.value)">
+
+    
+    <ul *ngFor="let myfruit of fruits">
+        <li>{{myfruit}} </li>
+    </ul>
+
 </div>

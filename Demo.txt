@@ -301,14 +301,20 @@ ANagulr :
 			ts to html 
 			
 				One Way 
-					1) Event 
-					2) Property 
-					3) Interpolation 
+					1) Event  ()
+					2) Property  [] 
+					3) Interpolation {{ }} 
 				Two Way data Binding 
 					ngModel
 
 
 		4 )  directive  
+				Structure:
+					*ngIf, *ng For , ngSwitch 
+
+				Attrubute 
+					ngClass, ng Style 
+
 
 
 
