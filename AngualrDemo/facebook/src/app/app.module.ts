@@ -15,6 +15,8 @@ import { TestingComponent } from './dept/testing/testing.component';
 import { DevComponent } from './dept/dev/dev.component';
 import { DeploymentComponent } from './dept/deployment/deployment.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { DatabindComponent } from './databind/databind.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     TestingComponent,
     DevComponent,
     DeploymentComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    DirectivedemoComponent,
+    DatabindComponent
   ],
   imports: [
     BrowserModule,
