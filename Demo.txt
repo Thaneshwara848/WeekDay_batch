@@ -279,7 +279,7 @@ TS 		: with logic
 
 
 ANagulr : 
-		Component : 
+		1 ) Component : 
 			login 
 			register
 			herader
@@ -291,12 +291,24 @@ ANagulr :
 				home 
 				per
 
-		Routing : 
+		 2 ) Routing : 
 
 			1) ROuterLink
 			2)<router-outlet>
 			3) Configire in router file 
+		3) Data Binding 
+			html to ts 
+			ts to html 
+			
+				One Way 
+					1) Event 
+					2) Property 
+					3) Interpolation 
+				Two Way data Binding 
+					ngModel
 
+
+		4 )  directive  
 
 
 
