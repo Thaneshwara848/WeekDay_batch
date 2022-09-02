@@ -316,6 +316,23 @@ ANagulr :
 					ngClass, ng Style           	
 
 		5_pipe 
+
+				string
+				number
+				string
+				date
+				JSON
+				
+				Costum Pipe : 
+					ng g pipe pipe_name
+
+					2 file 
+						spec.ts
+						ts
+
+					{{5 | sqr }}
+					
+
 		6) Sercise 
 		7) validation 
 		8)Life cyle Hooks 

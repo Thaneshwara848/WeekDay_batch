@@ -18,6 +18,8 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { DatabindComponent } from './databind/databind.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
     ErrorpageComponent,
     DirectivedemoComponent,
     DatabindComponent,
-    PipedemoComponent
+    PipedemoComponent,
+    SqrPipe,
+    CubePipe
   ],
   imports: [
     BrowserModule,
