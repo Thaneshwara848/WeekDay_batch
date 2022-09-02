@@ -11,4 +11,8 @@ export class CommonservService {
   {
     console.log("Hear is the common logic with 100 lines from servies ")
   }
+
+  abc(){
+    
+  }
 }

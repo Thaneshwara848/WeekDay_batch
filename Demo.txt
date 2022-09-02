@@ -299,6 +299,11 @@ ANagulr :
 		7) validation  :
 				form validation
 
+				templet Driven From :
+						HTML 
+				Reactivce Drive From 
+						TS 
+
 		8)Life cyle Hooks 
 		
 

@@ -8,6 +8,7 @@ import { DevComponent } from './dept/dev/dev.component';
 import { TestingComponent } from './dept/testing/testing.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { FormdemoComponent } from './formdemo/formdemo.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MyservedemoComponent } from './myservedemo/myservedemo.component';
@@ -15,6 +16,9 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
+  {
+    path:'form',component:FormdemoComponent
+  },
   {
     path:'serv',component:MyservedemoComponent
   },

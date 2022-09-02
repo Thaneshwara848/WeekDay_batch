@@ -13,9 +13,9 @@ export class A3Component implements OnInit {
   ngOnInit(): void {
   }
 
-  
   mydb(){
     //console.log("A3 comp  with 100 lines ")
     this.db.dbcommonlogic();
   }
+
 }
