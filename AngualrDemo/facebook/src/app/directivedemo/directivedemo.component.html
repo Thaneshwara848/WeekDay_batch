@@ -1,18 +1,43 @@
 
 
 
-<div *ngIf="abc">
+<!-- <div *ngIf="abc">
     <h1>Heloo</h1>
 </div>
-
-
 <div>
     <input type="text" name="fruit" #fruit>
     <input type="submit" (click)="addFriuit(fruit.value)">
-
-    
     <ul *ngFor="let myfruit of fruits">
         <li>{{myfruit}} </li>
     </ul>
+</div> -->
+ <!-- <li *ngIf="myfruit=='Apple'" >{{myfruit}} </li> -->
 
+<h2>Attrubute Directove </h2>
+
+<div [ngClass]="{'bkg':true,'brdr':true}">
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training
+</div>
+
+<div [ngClass]="{'bkg':true,'brdr':false}">
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+</div>
+
+<div [ngClass]="{'bkg':false,'brdr':true}">
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training.
+    Simplilearn is the popular online Bootcamp & online courses learning platform 
+    that offers the industry's best PGPs, Master's, and Live Training
 </div>

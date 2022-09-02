@@ -1,0 +1,11 @@
+.bkg{
+    background-color: pink;
+}
+
+.brdr{
+    border: 5px solid red;
+}
+
+div{
+    width: 50%;
+}

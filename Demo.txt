@@ -315,9 +315,15 @@ ANagulr :
 				Attrubute 
 					ngClass, ng Style 
 
+		5_pipe 
+		6) Sercise 
+		7) validation 
+		8)Life cyle Hooks 
+		
 
+		8)HHtp 
 
-
-
+		10) project 
+		
 
 
