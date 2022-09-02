@@ -12,4 +12,10 @@ export class PipedemoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  name="SuREsH is a trainer";
+  amount=123456789;
+
+  date= new Date();
+  obj={'id':100,'name':'Prakash'}
+
 }
