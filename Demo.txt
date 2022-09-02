@@ -280,61 +280,25 @@ TS 		: with logic
 
 ANagulr : 
 		1 ) Component : 
-			login 
-			register
-			herader
-			footer
-			demo
-			loan 		
-				edu 
-				car 
-				home 
-				per
+			
 
 		 2 ) Routing : 
 
-			1) ROuterLink
-			2)<router-outlet>
-			3) Configire in router file 
+		
 		3) Data Binding 
-			html to ts 
-			ts to html 
 			
-				One Way 
-					1) Event  ()
-					2) Property  [] 
-					3) Interpolation {{ }} 
-				Two Way data Binding 
-					ngModel
-
 
 		4 )  directive  
-				Structure:
-					*ngIf, *ng For , ngSwitch 
-
-				Attrubute 
-					ngClass, ng Style           	
-
+			
 		5_pipe 
 
-				string
-				number
-				string
-				date
-				JSON
 				
-				Costum Pipe : 
-					ng g pipe pipe_name
+		6) Services
 
-					2 file 
-						spec.ts
-						ts
+				
+		7) validation  :
+				form validation
 
-					{{5 | sqr }}
-					
-
-		6) Sercise 
-		7) validation 
 		8)Life cyle Hooks 
 		
 
@@ -342,5 +306,39 @@ ANagulr :
 
 		10) project 
 		
+Login
+	inject 
+Register
+	inject 
+
+ForGet 
+	inject 
+
+
+
+Setrvocez:
+	db()
+	{
+		100 lines 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
