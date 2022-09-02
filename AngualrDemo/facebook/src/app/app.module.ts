@@ -17,6 +17,7 @@ import { DeploymentComponent } from './dept/deployment/deployment.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { DatabindComponent } from './databind/databind.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { DatabindComponent } from './databind/databind.component';
     DeploymentComponent,
     ErrorpageComponent,
     DirectivedemoComponent,
-    DatabindComponent
+    DatabindComponent,
+    PipedemoComponent
   ],
   imports: [
     BrowserModule,

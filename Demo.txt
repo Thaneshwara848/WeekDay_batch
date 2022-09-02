@@ -313,7 +313,7 @@ ANagulr :
 					*ngIf, *ng For , ngSwitch 
 
 				Attrubute 
-					ngClass, ng Style 
+					ngClass, ng Style           	
 
 		5_pipe 
 		6) Sercise 

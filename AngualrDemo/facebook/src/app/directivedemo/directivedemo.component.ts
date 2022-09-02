@@ -10,7 +10,7 @@ export class DirectivedemoComponent implements OnInit {
 
   constructor() { }
 
- abc=false
+ abc=true
   ngOnInit(): void {
    
   }
@@ -22,4 +22,10 @@ export class DirectivedemoComponent implements OnInit {
     this.fruits.push(myfriut);
   }
 
+  myswitch=1;
+  mychoice1(ch:any)
+  {
+    this.myswitch=ch;
+  }
+  
 }

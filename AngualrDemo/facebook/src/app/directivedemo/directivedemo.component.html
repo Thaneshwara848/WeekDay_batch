@@ -1,7 +1,7 @@
 
 
-
-<!-- <div *ngIf="abc">
+<h2> Strutural Distrecitbv </h2>
+<div *ngIf="abc">
     <h1>Heloo</h1>
 </div>
 <div>
@@ -10,8 +10,29 @@
     <ul *ngFor="let myfruit of fruits">
         <li>{{myfruit}} </li>
     </ul>
-</div> -->
+</div>
  <!-- <li *ngIf="myfruit=='Apple'" >{{myfruit}} </li> -->
+
+
+
+ <input type="text" name="mychoice" #mychoice>
+    <input type="submit" (click)="mychoice1(mychoice.value)">
+
+<div style="text-align: center" [ngSwitch]="myswitch">
+    <p *ngSwitchCase='1'>kannada</p>
+    <p *ngSwitchCase='2'>English </p>
+    <p *ngSwitchCase='3'> marati</p>
+    <p *ngSwitchCase='4'>Tamil</p>
+    <p *ngSwitchCase='5'>Telgu</p>
+    <p *ngSwitchDefault>Hindi</p>
+</div>
+
+
+
+
+
+
+
 
 <h2>Attrubute Directove </h2>
 
