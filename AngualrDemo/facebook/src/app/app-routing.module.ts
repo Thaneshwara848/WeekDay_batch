@@ -9,6 +9,7 @@ import { TestingComponent } from './dept/testing/testing.component';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { FormdemoComponent } from './formdemo/formdemo.component';
+import { GetprodComponent } from './getprod/getprod.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MyservedemoComponent } from './myservedemo/myservedemo.component';
@@ -16,6 +17,9 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
+  { 
+      path:'getprod',component:GetprodComponent
+  },
   {
     path:'form',component:FormdemoComponent
   },

@@ -296,3 +296,63 @@ STS:
 	
 VSCode
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML 
+CSS
+Bootstracp 
+javaScript 
+TypeScript 
+Angualr 
+	1) Component 
+	2 ) Routing 
+	3 ) DataBinding 
+	4 ) Directives 
+	5 ) Services 
+	6 ) Pipe 
+	7 ) From Validation 
+	8) life cyle hok
+	9) 
+	
+
+
+
+3  steps :
+
+
+1)
+	 import { HttpClient } from '@angular/common/http'
+
+  	constructor(private http:HttpClient) { }
+	
+	add in modeult .ts 
+	HttpClientModule
+	import { HttpClientModule } from '@angular/common/http';
+
+
+
+
+
+2 ) 

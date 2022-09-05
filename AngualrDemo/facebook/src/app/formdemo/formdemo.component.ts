@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-formdemo',
@@ -7,12 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormdemoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private rout :Router) { }
 
   ngOnInit(): void {
   }
   onSubmitData(userForm:any){
       console.log(userForm)
+     // this.rout.navigate(['home']);
+     
+
   }
 
 }

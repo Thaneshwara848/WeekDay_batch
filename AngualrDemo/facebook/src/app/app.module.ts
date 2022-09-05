@@ -29,6 +29,8 @@ import { FormsModule }   from '@angular/forms';
 import { ReactivedrivenfomrComponent } from './reactivedrivenfomr/reactivedrivenfomr.component';
 
 import {ReactiveFormsModule} from '@angular/forms';
+import { GetprodComponent } from './getprod/getprod.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,13 +56,15 @@ import {ReactiveFormsModule} from '@angular/forms';
     A2Component,
     A3Component,
     FormdemoComponent,
-    ReactivedrivenfomrComponent
+    ReactivedrivenfomrComponent,
+    GetprodComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
