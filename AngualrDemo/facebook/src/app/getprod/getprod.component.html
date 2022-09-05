@@ -1,3 +1,24 @@
+<input type="text" name="myprod" #myprod>
+<input type="submit" (click)="kichen1(myprod.value)">
+<br>
+<select (change)="kichen($event)">
+    <option value="veg">veg </option>
+    <option value="fruits">Fruits</option>
+    <option value="spices"> Spices </option>
+
+</select>
+
+
+<h1>My Products </h1>
+<ul>
+    <!-- <li *ngFor="let item of mykicknitem">
+        {{item}}
+    </li> -->
+</ul>
+<li *ngFor="let item of mykicknitem">
+    {{item.name}} ---  {{item.price}}
+</li>
+<hr>
 <div>
     <table class="table table-bordered">
         <tr>
@@ -14,3 +35,7 @@
         </tr>
     </table>
 </div>
+
+
+
+
