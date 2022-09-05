@@ -249,101 +249,50 @@ Data base 						Mysql 										MYSQL / H2 /
 
 
 
+Front End : 
+
 HTML : only statci web page 
 CSS  : look and feel 
 Bootstracp : more ;look and feel 
 JS 		: client validation , with logic 
 TS 		: with logic 
-
-
 		1) OOPS: 
 			class & object 
 			Inheritance 
 			Polymorphism 
 			Abstratcion 
 			Encupulation 
-
-
 		2) Data type 
 		3) Optinal parament 
 		4) Access modifier :
 				private 
 				public 
 				protected 
-
-		
 		7)modul , export , inport 
-
-
-
-
 
 ANagulr : 
 		1 ) Component : 
-			
-
 		 2 ) Routing : 
-
-		
 		3) Data Binding 
-			
-
 		4 )  directive  
-			
-		5_pipe 
-
-				
-		6) Services
-
-				
+		5_pipe
+		6) Services	
 		7) validation  :
 				form validation
-
 				templet Driven From :
 						HTML 
 				Reactivce Drive From 
 						TS 
-
 		8)Life cyle Hooks 
-		
-
-		8)HHtp 
-
+		8)HHtp :
 		10) project 
 		
-Login
-	inject 
-Register
-	inject 
-
-ForGet 
-	inject 
 
 
 
-Setrvocez:
-	db()
-	{
-		100 lines 
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+POSTMAN
+GIT
+STS:
+	
+VSCode
 

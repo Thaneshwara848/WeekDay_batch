@@ -9,7 +9,7 @@
                 <input type="text" class="form-control" ngModel #username="ngModel" name="username" required><br>
                 <span *ngIf="username.invalid && username.touched" style="color: red">user name is Requried....!</span>
            </div>
-
+           
            <div class="form-inline">
             <label>USer Pass<span style="color: red" *ngIf="userpass.invalid">*</span> :  </label>
                 <input type="text" class="form-control" ngModel #userpass="ngModel" required name="userpass" required><br>
@@ -19,5 +19,8 @@
        <button type="submit" class="btn btn-primary"> LOGIN </button>
 
         </form>
+    </div>
+    <div>
+        <app-reactivedrivenfomr></app-reactivedrivenfomr>
     </div>
 </div>

@@ -26,7 +26,9 @@ import { A2Component } from './a2/a2.component';
 import { A3Component } from './a3/a3.component';
 import { FormdemoComponent } from './formdemo/formdemo.component';
 import { FormsModule }   from '@angular/forms';
+import { ReactivedrivenfomrComponent } from './reactivedrivenfomr/reactivedrivenfomr.component';
 
+import {ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,12 +53,14 @@ import { FormsModule }   from '@angular/forms';
     A1Component,
     A2Component,
     A3Component,
-    FormdemoComponent
+    FormdemoComponent,
+    ReactivedrivenfomrComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

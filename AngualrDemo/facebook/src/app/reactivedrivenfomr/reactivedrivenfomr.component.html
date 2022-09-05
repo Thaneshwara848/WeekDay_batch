@@ -1,0 +1,15 @@
+<div>
+    <form [formGroup]="student" (ngSubmit)="onSubmitData(student.value)">
+        <h3>Reactive Drive From <br>
+
+            First name :<input type="text" name="fname" formControlName="firstname"><br>
+            LAST  name :<input type="text" name="lname" formControlName="lastname"><br>
+            
+            Age :<input type="number" name="age" formControlName="age"><br><br>
+    
+    
+            <input type="submit" name="register" value="register" [disabled]="student.invalid"> &nbsp;
+            <input type="reset" name="reset" value="RESET">
+        </h3>
+    </form>
+</div>
